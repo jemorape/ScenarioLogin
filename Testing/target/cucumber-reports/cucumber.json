@@ -1,0 +1,61 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-23T00:09:34.578Z",
+        "line": 3,
+        "name": "Login with credentials",
+        "description": "",
+        "id": "login-for-the-application;login-with-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5970062000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Demo.stepDefinition.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat Demo.stepDefinition.the_user_provide_the_wrong_credentials(stepDefinition.java:43)\n\tat ✽.The user provide the wrong credentials(file:///Users/jesuseduardomoraperez/IdeaProjects/Testing/src/test/resources/features/Logintodist.feature:5)\n",
+              "duration": 302063000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "The user provide the wrong credentials",
+            "match": {
+              "location": "Demo.stepDefinition.the_user_provide_the_wrong_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4540000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "The user should see message wrong email pwd",
+            "match": {
+              "location": "Demo.stepDefinition.the_user_should_message_wrong_email_pwd()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login for the application",
+    "description": "",
+    "id": "login-for-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Logintodist.feature",
+    "tags": []
+  }
+]
